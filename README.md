@@ -1,23 +1,23 @@
 # Log-query-tool
 A command line to query cpu usage logs
 
-##User Manual.
+##User Manual
 
-###Simulator
+###1. Simulator
 
-####To compile:
+####..* To compile:
 g++ -std=c++11 log_generator.cpp -o generate
 
-####To run:
-./generate <data path>
+####..*To run:
+./generate `<data path>`
 
-###Query tool
+###2. Query tool
 
-####To compile:
+####..*To compile:
 g++ std=c++11 query_tool.cpp -o query
 
-####To run
-./query <data path>
+####..*To run
+./query `<data path>`
 
-####To query
-query <server ip> <cpu id> <start date> <start time> <end date> <end time> 
+####..*To query
+query `<server ip> <cpu id> <start date> <start time> <end date> <end time>`
